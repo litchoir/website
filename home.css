@@ -1,0 +1,400 @@
+body {
+  font-family: 'Forum', cursive;
+}
+
+.navbar {
+  text-align: center;
+  background-color: #316ac6;
+  /* background-color: rgba(244, 220, 66,0.8); */
+  height: 44px;
+}
+
+.navbar a {
+  margin-right: -4px;
+}
+
+.element a {
+  position: relative;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #316ac6;
+  color: white;
+  font-size: 20px;
+  border: 2px solid #316ac6;;
+  float: left;
+}
+
+.element a:hover {
+  background-color: rgb(215,180,74);
+}
+
+.element {
+  position: relative;
+  display: inline-block;
+}
+
+
+.contained {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 42px;
+}
+
+.contained a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    margin: inherit;
+}
+
+.contained a:hover {
+  background-color: rgb(215,180,74);
+}
+
+.dropdown:hover .contained {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(215,180,74);;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+
+p {
+  font-size: 15px;
+}
+
+table {
+  height: 200%;
+}
+
+th {
+  font-weight: bold;
+  font-size: 20px;
+  height: 10%;
+}
+
+th, td {
+  text-align: center;
+  border: 1px solid rgb(200,200,200);
+}
+
+td {
+  height: 45%;
+}
+
+#Ttitle {
+  width: 30%;
+}
+
+#Tevent {
+  width: 60%;
+}
+
+#Tdate {
+  width: 10%;
+}
+
+
+.bottom {
+  font-size: 15px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: rgb(215,180,74);
+}
+
+#NDlogo {
+  width: 90%;
+}
+
+.bottom .material-icons {
+  font-size: 12px;
+}
+
+.dropbtn .material-icons, .contained .material-icons {
+  font-size: 20px;
+}
+
+
+
+.collapsible-header {
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.collapsible-body {
+  font-size: 16px;
+}
+
+.collapsible-body li b {
+  text-decoration: underline;
+}
+iframe {
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(13, 106, 198,0.9);
+}
+
+
+.newsAction a, .card-content a {
+  margin-right: 5px !important;
+  text-transform: none !important;
+  text-decoration: underline !important;
+  color: white !important;
+}
+
+.parallax-container {
+    height: 400px;
+}
+
+.insideText {
+  opacity: 0.6;
+}
+
+div.backgroundDiv {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9vTDxdRleg0rK4-eVnLQCvnnqsG5XnM6OpZlecXslzLfKujRQaA");
+  border: 1px inset black;
+
+}
+
+
+div.insideText {
+  /* margin: 30px; */
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid black;
+  opacity: 0.9;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.insideText p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 16px;
+}
+
+.bottom a {
+  color: black;
+  text-decoration: underline;
+}
+
+
+.collection a {
+  color: black !important;
+  font-size: 18px;
+}
+
+.collection a:hover {
+  font-size: 25px;
+  color: white !important;
+  background-color: rgb(49, 106, 198) !important;
+}
+
+.card-title:not(.moreinfo) {
+  font-weight: bold !important;
+  font-size: 1.5vw !important;
+  width: 100%;
+  padding: 5% !important;
+}
+
+#people .card-content {
+  background-color: #316ac6;
+}
+
+
+#people .card-content p {
+  font-size: 1.4vw;
+  text-align: center;
+  color: white !important;
+}
+
+#people .card-action {
+  background-color: rgb(215,180,74) !important;
+  display: none;
+}
+
+.btn {
+  margin: auto;
+  display: block;
+  width: 160px;
+}
+
+#alumni p {
+  font-size: 18px;
+  text-align: center;
+}
+
+#alumni li {
+  font-size: 15px;
+}
+
+.pplDrop a {
+  width: 105.73px !important;
+}
+
+.tourDrop a {
+  width: 97.609px;
+}
+
+.recDrop a {
+  width: 143.2px;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider a {
+  color: white;
+  text-decoration: underline;
+}
+
+.slider .slides li .caption {
+  top: 8%;
+  overflow: auto;
+}
+
+.slider h3 {
+  margin: 0px 0px 0px 0px;
+  font-size: 29px;
+}
+
+.slider .newsContent {
+  font-size: 19px;
+  margin-top: 8%;
+  height: 200px;
+  overflow: auto;
+}
+
+.newsAction {
+  font-weight: bold;
+  color: white;
+  font-size: 1.9vw;
+  margin-top: 8%;
+}
+
+#whoWeAre {
+  font-size: 24px;
+  height: 450px;
+  margin: 0px 25px 0px 25px;
+  overflow: auto;
+}
+
+.recordings col {
+  text-align: center;
+}
+
+.recordings ol {
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+.recordings ol, .recordings .description {
+  text-align: left;
+  list-style-position: inside;
+  width: 100%;
+  max-height: 200px;
+  overflow: auto;
+  font-size: 14px;
+}
+
+.recordings img {
+  width: 100%;
+}
+
+.recordings .songList ol h6 {
+  text-decoration: underline;
+}
+
+#upArrow {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  left: 5.55%;
+  color: white;
+}
+
+#downArrow {
+  visibility: hidden;
+  position: absolute;
+  top: 45%;
+  right: 5.55%;
+  color: white;
+}
+
+span.songTitle {
+  font-weight: bold;
+}
+
+.row#pages {
+  position: sticky;
+  top: 10px;
+  left: 0px;
+}
+
+.pagination {
+  background-color: #316ac6;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+ul.pagination li a {
+  color: white;
+  font-size: 18px;
+}
+
+
+ul.pagination li.active a {
+  background-color: rgb(215,180,74);
+}
+
+ul.pagination li a i.material-icons {
+  color: white;
+}
+
+ul.pagination li.disabled a i.material-icons {
+  color: gray;
+}
+
+h3 i.material-icons {
+  font-size: 2.5rem;
+}
+
+.tour-description, .contactInfo, #aearlier ul li {
+  font-size: 24px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.icons-container, .alumni-container {
+  text-align: center;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

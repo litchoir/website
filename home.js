@@ -17,6 +17,7 @@
     $('ul.pagination li a').click(changeTour);
     $(window).scroll(hidePage);
     $(window).scroll(adjustYear);
+    setInterval(adjustYear,200);
   }
 
   function buttonRun() {
